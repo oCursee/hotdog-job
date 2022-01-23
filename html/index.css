@@ -1,0 +1,70 @@
+body {
+    background: none !important;
+}
+
+#backgroundImg{
+  transition: visibility 0s, opacity 0.5s linear;
+    font-size: 20px;
+    padding: 25px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 1150px;
+    border-radius: 7px;
+    display: none;
+    
+}
+
+#menuContainer {
+  transition: visibility 0s, opacity 0.5s linear;
+  font-size: 20px;
+  padding: 25px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  height: 700px;
+  width: 850px;
+  border-radius: 3px;
+  animation: intro 1s;
+  background-image: linear-gradient(to right, rgba(255,0,0,0),#ffff0013, #612f2f41);
+  background: repeating-linear-gradient(to right,#f6ba52,#f6ba52 10px,#ffffff 10px,#ffffff 20px);
+  display: ;
+}
+#hotDogImg{
+  position: fixed;
+  width: 300px;
+}
+@keyframes intros{
+  from{
+    top: 0%;
+  }
+  to{
+    transform: translate(-50%, -50%);
+  }
+}
+#hotDogprice{
+  position: fixed;
+  font-size: 95px;
+  color: green;
+  left: 65%;
+  font-family: fantasy;
+  top: 15%;
+}
+#spriteImg{
+  position: fixed;
+  width: 600px;
+  top: 45%;
+  left: -20%;
+}
+#spriteprice{
+  position: fixed;
+  font-size: 95px;
+  color: green;
+  left: 65%;
+  font-family: fantasy;
+  top: 55%;
+}
